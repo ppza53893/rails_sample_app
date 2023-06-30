@@ -12,6 +12,7 @@ gem "puma",            "5.6.4"
 gem "bootsnap",        "1.12.0", require: false
 gem "bootstrap-sass",  "3.4.1"
 gem "bcrypt", "3.1.16"
+gem 'jquery-rails'
 
 group :development, :test do
   gem "sqlite3", "1.4.2"

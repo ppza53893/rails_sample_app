@@ -1,0 +1,4 @@
+uoserv:
+  name: uoserv
+  email: uoserv@uoserv.dev
+  password_digest: <%= User.digest('password') %>
