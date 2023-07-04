@@ -13,6 +13,9 @@ gem "bootsnap",        "1.12.0", require: false
 gem "bootstrap-sass",  "3.4.1"
 gem "bcrypt", "3.1.16"
 gem 'jquery-rails'
+gem 'faker', '~> 3.2'
+gem 'will_paginate', '~> 4.0.0'
+gem 'will_paginate-bootstrap-style'
 
 group :development, :test do
   gem "sqlite3", "1.4.2"
